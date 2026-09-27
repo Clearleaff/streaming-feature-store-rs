@@ -1,0 +1,17 @@
+[package]
+name = "streaming-feature-store-rs"
+version = "0.1.0"
+edition = "2021"
+description = "Ultra-low-latency, in-memory streaming feature store with EWMA-decayed statistics, multi-window velocity tracking, and adaptive spike detection."
+license = "MIT"
+repository = "https://github.com/your-org/streaming-feature-store-rs"
+readme = "README.md"
+keywords = ["streaming", "feature-store", "fraud-detection", "real-time", "fintech"]
+categories = ["data-structures", "concurrency"]
+
+[dependencies]
+dashmap = "5"
+serde = { version = "1", features = ["derive"] }
+
+[dev-dependencies]
+rand = "0.8"
